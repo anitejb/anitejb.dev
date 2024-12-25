@@ -1,15 +1,77 @@
 <!DOCTYPE html>
-<meta charset="utf-8">
-<meta name="robots" content="noindex,nofollow">
-<title>Super Cool Website</title>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="robots" content="noindex,nofollow">
+    <title>Super Cool Website</title>
+    <style>
+        body {
+            background-color: black;
+            color: lime;
+            font-family: "Courier New", Courier, monospace;
+        }
+        h2 {
+            color: yellow;
+            text-shadow: 2px 2px red;
+        }
+        marquee {
+            font-size: 24px;
+        }
+        img {
+            border: 5px solid purple;
+            border-radius: 50%;
+            width: 150px;
+        }
+        a {
+            color: cyan;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+            color: magenta;
+        }
+        .content {
+            margin: 20px;
+            border: 3px dashed orange;
+            padding: 10px;
+            background-color: rgba(0, 0, 0, 0.8);
+        }
+        .footer {
+            margin-top: 20px;
+            font-size: 12px;
+            color: gray;
+        }
+        .section {
+            text-align: left;
+            padding: 10px 40px 0px;
+        }
+    </style>
+</head>
 <body>
-    <h2><marquee>WELCOME TO MY COOL WEBSITE</marquee></h2>
+    <h2><marquee behavior="scroll" direction="left" scrollamount="10">WELCOME TO MY COOL WEBSITE</marquee></h2>
     <center>
-    <img src="https://gravatar.com/avatar/f7e07b49d3b222e398a896949e4923c6.jpg"/><br/>
-    <p>My name is Anitej.<br/>
-    This is my website.<br/>
-    I somewhat speak computer. I've got some cool stuff <a href="https://github.com/anitejb" target="_blank">here</a>.<br/>
-    Check out professional stuff <a href="https://linkedin.com/in/anitejb" target="_blank">here</a>.</p>
-    <p>You can find me most places @anitejb.<br/>
+        <div class="content">
+            <p>hi! my name is <b>anitej</b> (pronounced ɑːˌniːˈtedʒ or ʌˌniːˈθeɪdʒ)</p>
+        </div>
+        <div class="section">
+            <h3>about me</h3>
+            <ul>
+                <li>📍 new york, ny</li>
+                <li>🔬 currently working on software for federal healthcare research at palantir technologies (opinions are my own)</li>
+                <li>💡 interests (in no particular order): linguistics, security, research, a cappella, amateur videography/photography, scuba diving, rock climbing, mixology, supper clubs (although I'm not very good at any of these yet)</li>
+            </ul>
+        </div>
+        <div class="section">
+            <h3>quick links</h3>
+            <ul>
+                <li><a href="https://github.com/anitejb">github</a></li>
+                <li><a href="https://linkedin.com/in/anitejb">linkedin</a></li>
+                <li><a href="https://open.spotify.com/user/beyak4oanpa6cl0x0ic4q1qze">spotify</a></li>
+            </ul>
+        </div>
+        <div class="footer">
+            <p>All rights reserved.</p>
+        </div>
     </center>
 </body>
+</html>
