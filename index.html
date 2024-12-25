@@ -3,19 +3,22 @@
 <head>
     <meta charset="utf-8">
     <meta name="robots" content="noindex,nofollow">
-    <title>Super Cool Website</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>anitejb.dev</title>
+    
     <style>
         body {
             background-color: black;
             color: lime;
             font-family: "Courier New", Courier, monospace;
+            font-size: 18px;
         }
         h2 {
             color: yellow;
             text-shadow: 2px 2px red;
         }
         marquee {
-            font-size: 24px;
+            font-size: 26px;
         }
         img {
             border: 5px solid purple;
@@ -38,12 +41,24 @@
         }
         .footer {
             margin-top: 20px;
-            font-size: 12px;
+            font-size: 14px;
             color: gray;
         }
         .section {
             text-align: left;
             padding: 10px 40px 0px;
+        }
+        .pronunciation {
+            color: white;
+            font-weight: bold;
+            display: inline-block;
+            white-space: nowrap;
+        }
+        .hi-line {
+            font-size: 1.5em;
+        }
+        .pronunciation-line {
+            font-size: 0.8em;
         }
     </style>
 </head>
@@ -51,7 +66,10 @@
     <h2><marquee behavior="scroll" direction="left" scrollamount="10">WELCOME TO MY COOL WEBSITE</marquee></h2>
     <center>
         <div class="content">
-            <p>hi! my name is <b>anitej</b> (pronounced ɑːˌniːˈtedʒ or ʌˌniːˈθeɪdʒ)</p>
+            <p>
+                <span class="hi-line">hi! 👋 my name is <span class="pronunciation">anitej</span></span><br/>
+                <span class="pronunciation-line">(pronounced <span class="pronunciation">ɑːˌniːˈtedʒ</span> or <span class="pronunciation">ʌˌniːˈθeɪdʒ</span>)</span>
+            </p>
         </div>
         <div class="section">
             <h3>about me</h3>
